@@ -33,30 +33,33 @@ Features:
 How to use:
 
     On the first use, run the executable file, which will allow it to create the necessary folders as well as the database that
-    will be used. After that, you will land on main menu, which will look something like this:
-
-
-
+    will be used. After that, you will land on main menu.
     Please also note that a new folder "load-in files" was created in the executable's directory and also a new "List of
-    Categories" txt file was created. The folder is where all the transactions files that will be read by the program have to be
-    stored. It also includes a "old files" folder where you can drop files that have already been used. The txt file will be
-    used later, when updating records and it contains all the built-in categories.  
+    Categories" txt file was created. The folder is where all the transactions files that will be read by the program have to
+    be stored. It also includes an "old files" folder where you can drop files that have already been used. The txt file will
+    be used later, when updating records and it contains all the built-in categories.
+
     The main menu contains multiple options to add, edit, or delete data from the database.  
     To add new transaction data to the database, please choose option 2 to update tables, making sure you have a csv file from a
     supported bank in the "load-in files" folder. This will prompt the user to select a file.  
-    NOTE: Please make sure the chosen transaction file does NOT include the current day's date!  
+    NOTE: Please make sure the chosen transaction file does NOT include the current day's date!
+
     After choosing a file and if there are no accounts and/or no locations on record, the user will be prompted to add them. The
     program will then take into account the account chosen, standardizing the csv file based on the account bank, and converting
-    transactions to EUR if necessary. The location chosen is also associated with all transactions.  
+    transactions to EUR, if necessary. The location chosen is also associated with all transactions present on the file.
+  
     For the main part of the program, the user will be prompted to associate a store/company to each transaction based on its
     description. If a description is repeated, the program will automatically associate it to the corresponding store on record.
     After that process, the user will then be prompt to associate each store/company to a category (For reference, the "List of
-    Categories" txt file can be used).  
+    Categories" txt file can be used).
+
     On subsequent uses of the program any repeating descriptions will be also be automatically associated with their
     corresponding stores. Only if new descriptions appear, will the user be prompted to associated them with a store and
-    category.  
+    category.
+
     In the main menu, the sub-menus presented give the user the ability to add other categories to the database, delete accounts
-    on record, change the location of a transaction, amongst other things.  
+    on record, change the location of a transaction, amongst other things.
+  
     Finally, to reset the whole database, choose option 9. This will delete the current database and recreate it once again.  
     To visualize the data on record, please use the Power BI template provided in the "Extra files" folder. This template
     includes for 4 report pages. CTRL+click on the "?" icon in the top left corner to obtain more information about each page.
