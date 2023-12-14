@@ -1,4 +1,5 @@
 To do list:
+
     - Improve currency conversion speed;
     - Allow the use of already standardized transaction.csv files, mitigating the lack of supported banks;
     - Verify if bug affecting some Power BI slicers has been resolved;
