@@ -6,6 +6,12 @@ Description:
     summurizing key insights of a person's financial situation, simply by using the transaction csv files provided by one of the
     supported banks. Currently this program supports the following banks: Caixa Geral de Depósitos (CGD), and Wise. This program
     uses EUR as a baseline.
+
+~~~
+    Images used:
+        Expense Tracker icon: https://pt.wikipedia.org/wiki/Ficheiro:Euro_symbol.svg
+        Test CSV File Builder icon: https://www.freepik.com/icon/bank_2830284#fromView=keyword&term=Bank&page=1&position=1&uuid=e9e67c78-5949-4e95-959d-1ba39b2aa18e
+
 ~~~
     Program background:
     
