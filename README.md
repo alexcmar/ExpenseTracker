@@ -35,6 +35,8 @@ How to use:
     On the first use, run the executable file, which will allow it to create the necessary folders as well as the database that
     will be used. After that, you will land on main menu, which will look something like this:
 
+
+
     Please also note that a new folder "load-in files" was created in the executable's directory and also a new "List of
     Categories" txt file was created. The folder is where all the transactions files that will be read by the program have to be
     stored. It also includes a "old files" folder where you can drop files that have already been used. The txt file will be
