@@ -16,3 +16,13 @@
     - Locations menu:  
         - "Add location", and "Change transactions' location" functionalities now available;
 
+**-- Version 2.1.0 --**
+
+    - Currency conversion process speed has been improved;
+	- Program now allows for the selection of a base currency at first startup (Previously only "EUR"
+      was available);
+	- Program now accepts 2 types of standardized transaction.csv files (with debits as negative values,
+      or with credits and debits in different columns);
+	- Expense Tracker report now reflects the base currency used in the program;
+
+
