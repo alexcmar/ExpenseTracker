@@ -1,4 +1,23 @@
-The transactions present in the test files follow the schema below:
+The files supplied for testing have the following parameters:
+
+    cgd_test.csv: small-sample main account (around 600 transaction rows)
+    wise_test.csv: tiny-sample secondary account (around 100 transaction rows)
+    main_standard_test: small_sample main account (around 600 transaction rows)
+    secondary_standard.csv: tiny-sample secondary account (around 100 transaction rows)
+
+The 2 standard transaction.csv files have the following parameters:
+
+    main_standard_test:
+    	Delimiter - ;
+    	Load mode - Debits and credits use different columns
+    	Date mode - YYYY/MM/DD
+    secondary_standard.csv:
+    	Delimiter - ;
+    	Load mode - Transactions use negative values for debits
+    	Date mode - YYYY/MM/DD
+
+
+The transactions present in the test files all follow the schema below:
 
     Description - Store - Category
     "Rent" - Rent - 3: Rent
@@ -20,15 +39,3 @@ The transactions present in the test files follow the schema below:
     "Restaurant B" - Restaurant B - 9: Restaurants
     "You Work Here Enterprise" - You Work Here Enterprise - 2: Salary
     "Bank Deposit" - Bank - 14: Bank transactions
-
-
-  But the stores can be added to different categories (Even new ones like a category "Subscriptions" for
-  stores like "Music App" and "Video Streaming App", or a category "Book", where multiple book stores 
-  would be added, such as "Book Store")
-  
-  The files supplied for testing have the following parameters:
-  cgd_test.csv: small-sample main account (around 600 transaction rows)
-  wise_test.csv: tiny-sample secondary account (around 100 transaction rows)
-  
-  Due to some throttling on the currency converter, it's advisable to use a tiny-sample account to test
-  the use of foreign currencies.
