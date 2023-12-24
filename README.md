@@ -4,8 +4,8 @@ Description:
 
     This program allows for an accurate recording of all credit and debit transactions for multiple accounts, providing multiple
     summarizing key insights of a person's financial situation, simply by using the transaction csv files provided by one of the
-    supported banks. Currently this program supports the following banks: Caixa Geral de Depósitos (CGD), and Wise. This program
-    uses EUR as a baseline.
+    supported banks. Currently this program supports the following banks: Caixa Geral de Depósitos (CGD), and Wise. Alternatively,
+    a stardardized transaction file can be used. This program allows the user to pick their prefered currency as a baseline.
 
 ~~~
     Images used:
@@ -27,7 +27,7 @@ Features:
 
     - Transaction tracking from 2022-01-01 onwards;  
     - Multiple account tracking;  
-    - Automatic currency conversion to EUR;  
+    - Automatic currency conversion to a selected base currency;  
     - Ability to assign transactions to specific cities/countries;  
     - Multiple key insights for both a timeline overview and a year/month scale.
 ~~~
@@ -45,10 +45,16 @@ How to use:
     be stored. It also includes an "old files" folder where you can drop files that have already been used. The txt file will
     be used later, when updating records and it contains all the built-in categories.
 
+    On the first use, the user will also be prompted to add their desired base currency. All transaction and balance amounts
+    will be converted to this currency, using the transaction day's conversion rate.
+
     The main menu contains multiple options to add, edit, or delete data from the database.  
     To add new transaction data to the database, please choose option 2 to update tables, making sure you have a csv file from a
-    supported bank in the "load-in files" folder. This will prompt the user to select a file.  
+    supported bank (or a standardized file) in the "load-in files" folder. This will prompt the user to select a file.  
     NOTE: Please make sure the chosen transaction file does NOT include the current day's date!
+
+    For stardardized files, the user will be asked for the delimiter used in the file, the load mode of the file (if debit
+    transactions appear as negative values, or if credits and debits use different columns) and the date format used by the file.
 
     After choosing a file and if there are no accounts and/or no locations on record, the user will be prompted to add them. The
     program will then take into account the account chosen, standardizing the csv file based on the account bank, and converting
