@@ -4,8 +4,9 @@ Description:
 
     This program allows for an accurate recording of all credit and debit transactions for multiple accounts, providing multiple
     summarizing key insights of a person's financial situation, simply by using the transaction csv files provided by one of the
-    supported banks. Currently this program supports the following banks: Caixa Geral de Depósitos (CGD), and Wise. Alternatively,
-    a stardardized transaction file can be used. This program allows the user to pick their prefered currency as a baseline.
+    supported banks. Currently this program supports the following banks: Caixa Geral de Depósitos (CGD), and Wise.
+    Alternatively, a standardized transaction file can be used. This program allows the user to pick their preferred currency as
+    a baseline.
 
 ~~~
     Images used:
