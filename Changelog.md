@@ -29,3 +29,7 @@
 
     - General bug fixes;
 
+**-- Version 2.2.0 --** 
+
+    - Currency converter bug fixes;
+    - Added "Net value" field in the "Credits / Debits" page of the final report;
