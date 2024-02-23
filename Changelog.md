@@ -33,3 +33,8 @@
 
     - Currency converter bug fixes;
     - Added "Net value" field in the "Credits / Debits" page of the final report;
+
+**-- Version 2.3.0 --** 
+
+    - Debit and credit transaction processing bug fix;
+    - Expense Tracker application now checks if required programs are installed;
