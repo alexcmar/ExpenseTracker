@@ -38,3 +38,7 @@
 
     - Debit and credit transaction processing bug fix;
     - Expense Tracker application now checks if required programs are installed;
+
+**-- Version 2.3.1 --** 
+
+    - Transaction's store change bug fix;
